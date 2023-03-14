@@ -1,0 +1,193 @@
+body{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/**Header Section CSS**/
+.header{
+    background-color: #1F2937;
+    padding: 5px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+ul{
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size:18px;
+    color: #E5E7EB;
+    gap: 20px;
+}
+
+/**Hero Section CSS**/
+.hero-background{
+    background-color: #1F2937;
+    flex:1;
+    justify-content:flex-end;
+    padding:40px;
+}
+
+.hero-content{
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+}
+
+.hero-left{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    flex-wrap:wrap;
+    flex: 1;
+}
+
+.opener{
+    font-size:48px;
+    font-weight:800;
+    color: #F9FAF8;
+}
+
+button{
+    background-color:#3882F6;
+    color: white;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-style:none;
+    padding: 5px 20px;
+}
+
+.hero-right{
+    background-color:grey;
+    color:white;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    width: 300px;
+}
+
+/**Information Section CSS**/
+.title{
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+    text-align:center;
+    margin: 10px auto 32px auto; 
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color:blue;
+    border-width: 2px;
+}
+  
+.container{
+display:flex;
+justify-content: center;
+align-items:center;
+gap: 52px;
+text-align: center;
+padding: 5px 40px 30px 40px;
+}
+  
+.info{
+display:flex;
+flex-direction: column;
+justify-content:flex-start;
+align-items: center;
+max-width:200px;
+}
+
+/**Quote Section CSS**/
+.quote-background{
+    background-color: #E5E7EB;
+    height: 250px;
+    padding: 5px 40px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.quote{
+    font-size:36px;
+    font-style:italic;
+    color: #1F2937;
+    width: 800px;
+}
+p{
+    margin-bottom:0;
+}
+.author{
+    text-align:end;
+    margin-top:0;
+}
+
+/**Prompt Section CSS**/
+/**May Borrow from other sections**/
+
+.prompt{
+    flex:1;
+    justify-content:flex-end;
+    padding:40px;
+}
+
+.prompt-box{
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+    background-color:#3882F6;
+    border-radius: 10px;
+    color:white;
+    padding: 10px 40px 10px 40px;
+}
+
+.prompt-left{
+    flex: 1;
+}
+
+header{
+    font-size:20px;
+    font-weight: 600;
+    margin-bottom:0px;
+}
+
+.prompt-left p{
+    margin-top: 0px;
+}
+
+.prompt-right{
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    width: 300px;
+}
+
+.prompt-right button{
+    border-style:solid;
+    border-color:white;
+    border-width: 2px;
+}
+
+/**Footer Section CSS**/
+.footer{
+    background-color: #1F2937;
+    color:white;
+    text-align:center;
+    padding: 4px;
+}
